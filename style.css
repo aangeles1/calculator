@@ -1,0 +1,53 @@
+/* DOCTYPE CSS */
+
+html, body {
+    height: 100%;
+    width: 100%
+}
+
+html {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}       
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    width: 200px;
+    height: 350px;
+    border: 7px solid green;
+    align: center;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    border: 2px solid red;
+    text-align:  right;
+    font-size: 22px;
+    font-weight: bolder;
+    height: 2px;
+}
