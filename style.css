@@ -24,7 +24,7 @@ table {
     border-collapse: separate;
     box-sizing: border-box;
     border-spacing: 2px;
-    width: 200px;
+    width: 300px;
     height: 350px;
     border: 7px solid green;
     align: center;
@@ -50,4 +50,14 @@ th {
     font-size: 22px;
     font-weight: bolder;
     height: 2px;
+}
+td {
+    vertical-align: inherit;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    border: 2px solid red;
+    text-align: center;
+    font-size: 22px;
+    font-family: serif;
 }
